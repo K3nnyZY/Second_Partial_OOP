@@ -15,9 +15,9 @@ class User{
 class Cine{
 +seat_vip:int
 +seat_regular:int
-+add_user()
-+user_register
-+add_films()
++user()
++user_register()
++films()
 +available()
 +sell()
 }
