@@ -5,6 +5,3 @@ class User:
         """
         self.id = id
         self.preference = preference
-
-    def __repr__(self) -> str:
-        return self.id

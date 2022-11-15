@@ -13,7 +13,7 @@ class Cine:
         self.movies = []
 
 
-    def add_user(self,id:str, preference:str):
+    def user(self,id:str, preference:str):
         """
         Añade un usario nuevo
         """
@@ -33,7 +33,7 @@ class Cine:
         return p
 
 
-    def add_films(self, movies:List[Movie]):
+    def films(self, movies:List[Movie]):
         """
         Añade todas las peliculas en una lista, y lo muestra
         """
@@ -41,8 +41,8 @@ class Cine:
             film.vip = self.seat_vip
             film.regular = self.seat_regular
             self.movies.append(film)
-            for film in self.movies:
-                print(film)
+        for film in self.movies:
+            print(film)
 
 
     def available(self,A_movie:str):
