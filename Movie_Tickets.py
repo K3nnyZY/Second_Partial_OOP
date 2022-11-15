@@ -1,48 +1,6 @@
-from abc import ABC, abstractmethod
+from Movie import Movie
 from typing import List
-
-class AbstractMovie(ABC):
-    def __init__(self, movie:str, time:str) -> None:
-        """
-        clase abstracta constructor de movie
-        """
-        self.movie = movie
-        self.time = time
-        self.vip = 0
-        self.regular = 0
-
-    @abstractmethod
-    def plump(self):
-       pass
-
-
-class Movie(AbstractMovie):
-    """
-    Esta clase es un decorador de property en la cual el metodo atributo
-    sera una propiedad
-    """
-    @property
-    def plump(self):
-        if self.vip and self.regular == 0:
-            return True
-        else:
-            return False
-
-    def __repr__(self) -> str:
-        return f"Pelicula: {self.movie} -> {self.time}"
-
-
-class User:
-    def __init__(self,id:str, preference:str) -> None:
-        """
-        clase constructor del usuario
-        """
-        self.id = id
-        self.preference = preference
-
-    def __repr__(self) -> str:
-        return self.id
-
+from User import User
 
 class Cine:
     def __init__(self, seat_vip:int, seat_regular:int) -> None:

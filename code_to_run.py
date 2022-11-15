@@ -1,4 +1,5 @@
-from Movie_Tickets import Cine,Movie
+from Movie_Tickets import Cine
+from Movie import Movie
 
 royalfilms = Cine(seat_vip=5,seat_regular=3)
 royalfilms.add_films([Movie("Black Panther", "9:15 PM"), Movie("Black Adam", "6:20 pm"), 
