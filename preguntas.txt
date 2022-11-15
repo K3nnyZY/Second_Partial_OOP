@@ -1,0 +1,8 @@
+Why exceptions are useful?
+Las excepciones son útiles ya que si se sabe que un código va a generar una excepción, se puede defender el software o el programa o evitar la interrupción de la ejecución del programa.
+
+Explain one example for when operator overloading is useful
+El operador sobrecarga es útil ya que esta le da un significado mas allá de lo que esta definido o cambiar el significado de un operador en python, por ejemplo en la suma, cuando va a realizar la concatenación de String se haría con __add__.
+
+Why abstract base classes are useful?
+Las clases bases abstracta son muy útiles ya que esta permite la buena ejecución del codigo al tener los mismos codigos, por ejemplo en un juego de RPG que tiene personajes como mago, y humano, los dos tendran mismos nombres en los metodos entonces, ¿cual deberia ejecutarse primero?, eso lo soluciona la clase abstracta, además la clase abstracta hace entender mejor el programa o código.

@@ -1,0 +1,29 @@
+@startuml
+class Movie{
++plump
+}
+
+class AbstractMovie{
++plump()
+}
+
+class User{
++id:str
++preference:str
+}
+
+class Cine{
++seat_vip:int
++seat_regular:int
++add_user()
++user_register
++add_films()
++available()
++sell()
+}
+
+AbstractMovie --|> ABC
+AbstractMovie --|> Movie
+User --* Cine
+@endumls
+@enduml
