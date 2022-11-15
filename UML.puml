@@ -25,5 +25,4 @@ class Cine{
 AbstractMovie --|> ABC
 AbstractMovie --|> Movie
 User --* Cine
-@endumls
 @enduml
